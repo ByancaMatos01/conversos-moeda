@@ -1,0 +1,21 @@
+main{
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 100%;
+    margin-bottom: 12%;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+.inputs-container{
+    width:100%;
+    justify-content: space-around;
+    margin-bottom: 8%;
+}

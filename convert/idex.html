@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/resert.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+    <header>
+        <h1>Conversor de moedas</h1>
+    </header>
+    <main>
+        <form id="form">
+            <section class="inputs-container">
+                <div class="form-group">
+                    <label for="value-real"> Valor a ser Convertido R$ </label>
+                       <input type="text" placeholder="R$20,00" name="value-real" id="value-real" max="100000000">
+                </div>
+
+                           <div class="form-group">
+                              <label for="currency">Escolha a moeda</label>
+                                <select id="currency">
+                                      <option value="">Selecione...</option>
+                                      <option value="eur">Euro</option>
+                                      <option value="dol">Dólar</option>
+                                     <option value="peso">Peso</option>
+                                </select>
+                            </div>
+
+                <button type="submit">Converter</button>
+        </form>
+             </section>
+        <h2 id="result"></h2>
+    </main>
+  
+
+    <footer>
+        <span>&copy; Todos os direitos reservados a ByaConvert.</span>
+    </footer>
+</body>
+</html>
+

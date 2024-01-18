@@ -1,0 +1,11 @@
+footer{
+    width: 100%;
+    background-color: rgba(157, 102, 209, 0.808);
+    padding: 10px;
+    text-align: center;
+}
+footer span{
+    color: aliceblue;
+    font-size: 0.8em;
+    font-weight: 500;
+}
